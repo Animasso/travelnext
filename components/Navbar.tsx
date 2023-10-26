@@ -31,8 +31,8 @@ const Navbar = () => {
                 <div
                     className={
                         openMenu
-                            ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
-                            : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+                            ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 transition ease-in duration-700"
+                            : "fixed left-[-100%] top-0 p-10 transition ease-in duration-700 "
                     }>
                     <div className=" flex justify-between ">
                         <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
